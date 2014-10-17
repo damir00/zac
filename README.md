@@ -25,13 +25,16 @@ $ apt-get install build-essential cmake libsdl1.2-dev libgl1-mesa-dev libglew-de
 
 Build:
 
+```
 $ cmake .
-
 $ make
+```
 
 Run:
 
+```
 $ ./zac
+```
 
 Building for Windows:
 ===
@@ -40,13 +43,16 @@ First you will have to acquire all dependency binaries.
 
 Install mingw32 cross-compiler:
 
+```
 $ apt-get install mingw32
+```
 
 Build:
 
+```
 $ cmake -DCMAKE_TOOLCHAIN_FILE=Toolchain-win32.cmake .
-
 $ make
+```
 
 Playing
 ===
