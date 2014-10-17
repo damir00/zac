@@ -26,6 +26,7 @@ $ apt-get install build-essential cmake libsdl1.2-dev libgl1-mesa-dev libglew-de
 Build:
 
 $ cmake .
+
 $ make
 
 Run:
@@ -44,6 +45,7 @@ $ apt-get install mingw32
 Build:
 
 $ cmake -DCMAKE_TOOLCHAIN_FILE=Toolchain-win32.cmake .
+
 $ make
 
 Playing
